@@ -20,7 +20,7 @@ save(test, file = "C:/Users/Jianghui/Desktop/BreastCancer/guide/test.RData")
 
 #fit the neural network model
 fit = neuralnet(Class ~ Thickness+Size+Shape+ Adhesion+ Epithelial + Nuclei+ Bland +Nucleoli+ Mitoses,data, hidden=10, threshold=0.01)
-print(fit)
+print(fit)   
  
 #Plot the neural network
 plot(fit)
