@@ -1,0 +1,248 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2014.10.5)  1 MAY 2015 22:36
+entering extended mode
+**glatex.tex
+(C:\Users\Jianghui\Desktop\BreastCancer\guide\glatex.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for loaded.
+("C:\Program Files\CTEX\MiKTeX\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\CTEX\MiKTeX\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\CTEX\MiKTeX\tex\latex\pstricks\pstricks.sty"
+Package: pstricks 2010/09/18 v0.47 LaTeX wrapper for `PSTricks' (RN,HV)
+
+("C:\Program Files\CTEX\MiKTeX\tex\generic\pstricks\pstricks.tex"
+("C:\Program Files\CTEX\MiKTeX\tex\generic\xkeyval\pst-xkey.tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+("C:\Program Files\CTEX\MiKTeX\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+("C:\Program Files\CTEX\MiKTeX\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count87
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+
+("C:\Program Files\CTEX\MiKTeX\tex\generic\xkeyval\keyval.tex"))))
+("C:\Program Files\CTEX\MiKTeX\tex\generic\pstricks\pst-fp.tex"
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count88
+\pstFP@xia=\count89
+\pstFP@xib=\count90
+\pstFP@xfa=\count91
+\pstFP@xfb=\count92
+\pstFP@rega=\count93
+\pstFP@regb=\count94
+\pstFP@regs=\count95
+\pstFP@times=\count96
+)
+\psLoopIndex=\count97
+
+`PSTricks' v2.14  <2010/11/14> (tvz)
+\pst@dima=\dimen103
+\pst@dimb=\dimen104
+\pst@dimc=\dimen105
+\pst@dimd=\dimen106
+\pst@dimg=\dimen107
+\pst@dimh=\dimen108
+\pst@dimm=\dimen109
+\pst@dimn=\dimen110
+\pst@dimo=\dimen111
+\pst@dimp=\dimen112
+\pst@hbox=\box26
+\pst@ibox=\box27
+\pst@boxg=\box28
+\pst@cnta=\count98
+\pst@cntb=\count99
+\pst@cntc=\count100
+\pst@cntd=\count101
+\pst@cntg=\count102
+\pst@cnth=\count103
+\pst@cntm=\count104
+\pst@cntn=\count105
+\pst@cnto=\count106
+\pst@cntp=\count107
+\@zero=\count108
+\pst@toks=\toks16
+("C:\Program Files\CTEX\MiKTeX\tex\generic\pstricks\pstricks.con")
+\psunit=\dimen113
+\psxunit=\dimen114
+\psyunit=\dimen115
+\pst@C@@rType=\count109
+\pslinewidth=\dimen116
+\psk@startLW=\dimen117
+\psk@endLW=\dimen118
+\pst@customdefs=\toks17
+\pslinearc=\dimen119
+\pst@symbolStep=\dimen120
+\pst@symbolWidth=\dimen121
+\everypsbox=\toks18
+\psframesep=\dimen122
+\pslabelsep=\dimen123
+\pst@shift=\dimen124
+\theoverlaybox=\box29
+)
+File: pstricks.tex 2010/11/14 v2.14 `PSTricks' (tvz,hv)
+
+("C:\Program Files\CTEX\MiKTeX\tex\generic\pstricks\pst-fp.tex")
+File: pst-fp.tex 2010/11/14 v2.14 `PST-fp' (hv)
+
+("C:\Program Files\CTEX\MiKTeX\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\CTEX\MiKTeX\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+("C:\Program Files\CTEX\MiKTeX\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+("C:\Program Files\CTEX\MiKTeX\tex\latex\pst-node\pst-node.sty"
+Package: pst-node 2010/04/22 package wrapper for pst-node.tex
+
+("C:\Program Files\CTEX\MiKTeX\tex\generic\pst-node\pst-node.tex"
+ v1.13, 2010/06/06
+\psrow=\count110
+\pscol=\count111
+\psmatrixcnt=\count112
+\psrowsep=\skip43
+\pscolsep=\skip44
+\pst@args=\count113
+\num@pts=\count114
+\pst@argcnt=\count115
+)
+File: pst-node.tex 2010/06/06 1.13 `pst-node' (tvz)
+)
+("C:\Program Files\CTEX\MiKTeX\tex\latex\pst-tree\pst-tree.sty"
+Package: pst-tree 2009/01/25 package wrapper for pst-tree.tex
+
+("C:\Program Files\CTEX\MiKTeX\tex\generic\pst-tree\pst-tree.tex"
+ v1.11, 2009/09/17(tvz,dg,hv)
+\pstree@rootbox=\box30
+\pstree@box=\box31
+\psnodecnt=\count116
+\pstreelevel=\count117
+\pstreecnt=\count118
+\pstree@cnt=\count119
+\pstree@stop=\count120
+)
+File: pst-tree.tex 2009/09/17 1.11 `pst-tree' (tvz,hv)
+)
+("C:\Program Files\CTEX\MiKTeX\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+("C:\Program Files\CTEX\MiKTeX\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count121
+\Gm@cntv=\count122
+\c@Gm@tempcnt=\count123
+\Gm@bindingoffset=\dimen125
+\Gm@wd@mp=\dimen126
+\Gm@odd@mp=\dimen127
+\Gm@even@mp=\dimen128
+\Gm@layoutwidth=\dimen129
+\Gm@layoutheight=\dimen130
+\Gm@layouthoffset=\dimen131
+\Gm@layoutvoffset=\dimen132
+\Gm@dimlist=\toks19
+
+("C:\Program Files\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg"))
+No file glatex.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+[1
+
+] (C:\Users\Jianghui\Desktop\BreastCancer\guide\glatex.aux) ) 
+Here is how much of TeX's memory you used:
+ 3567 strings out of 495363
+ 48019 string characters out of 3183262
+ 136052 words of memory out of 3000000
+ 6738 multiletter control sequences out of 15000+200000
+ 6845 words of font info for 25 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 32i,8n,38p,564b,700s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on glatex.dvi (1 page, 7728 bytes).

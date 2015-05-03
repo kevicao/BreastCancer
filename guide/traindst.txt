@@ -1,0 +1,14 @@
+train.txt
+NA
+col, varname, vartype
+1 Id x
+2 Thickness n
+3 Size n
+4 Shape n
+5 Adhesion n
+6 Epithelial n
+7 Nuclei n
+8 Bland n
+9 Nucleoli n
+10 Mitoses n
+11 class d

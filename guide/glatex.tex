@@ -1,0 +1,37 @@
+ \documentclass[12pt]{article}
+ %File creation date: 05/01/15  at 22:36
+ \usepackage{pstricks,pst-node,pst-tree}
+ \usepackage{geometry}
+ %\usepackage{lscape}
+ \pagestyle{empty}
+ \begin{document}
+ %\begin{landscape}
+ \begin{center}
+\psset{linecolor=black,tnsep=1pt,tndepth=0cm,tnheight=0cm,treesep=1.0cm,levelsep=52pt,radius=12pt}
+%     \def\psedge#1#2{\ncangle{#2}{#1}}
+  \pstree[treemode=D]{\Tcircle{ 1 }~[tnpos=l]{\shortstack[r]{\texttt{\detokenize{Size}}\\$\leq_*$2.50}}}{
+ \Tcircle[fillcolor=green,fillstyle=solid]{ 2 }~{\makebox[0pt][c]{0}}
+    ~[tnpos=l]{\shortstack[r]{292\\5}}
+  \pstree[treemode=D]{\Tcircle{ 3 }~[tnpos=l]{\shortstack[r]{\texttt{\detokenize{Nuclei}}\\$\leq_*$2.50}}}{
+  \pstree[treemode=D]{\Tcircle{ 6 }~[tnpos=l]{\shortstack[r]{\texttt{\detokenize{Size}}\\$\leq$3.50}}}{
+ \Tcircle[fillcolor=green,fillstyle=solid]{\small 12}~{\makebox[0pt][c]{0}}
+    ~[tnpos=l]{\shortstack[r]{13\\1}}
+ \Tcircle[fillcolor=red,fillstyle=solid]{\small 13}~{\makebox[0pt][c]{1}}
+    ~[tnpos=r]{\shortstack[r]{4\\17}}
+   }
+ \Tcircle[fillcolor=red,fillstyle=solid]{ 7 }~{\makebox[0pt][c]{1}}
+    ~[tnpos=r]{\shortstack[r]{9\\141}}
+ }
+ }
+ \end{center}
+GUIDE  0.50-SE classification tree for predicting \texttt{\detokenize{class}} with
+ estimated priors
+ and unit misclassification costs.
+At each split, an observation goes to the left branch 
+ if and only if the condition is satisfied.
+ The symbol `$\leq_*$' stands for `$\leq$ or missing'.
+Predicted classes (based on estimated misclassification cost) printed below terminal nodes;
+ sample sizes for 
+ 0 and 1, respectively, beside nodes.
+ %\end{landscape}
+ \end{document}

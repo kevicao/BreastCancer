@@ -1,0 +1,189 @@
+             GGG   U   U  I  DDDD   EEEE
+            G   G  U   U  I  D   D  E
+            G      U   U  I  D   D  E
+            G  GG  U   U  I  D   D  EEE
+            G   G  U   U  I  D   D  E
+            G   G  U   U  I  D   D  E
+             GGG    UUU   I  DDDD   EEEE
+   
+ GUIDE Classification and Regression Trees and Forests
+ Version 19.0 (build date: March 9, 2015)          
+ Copyright (c) 1997-2015 Wei-Yin Loh. All rights reserved.
+ This software is based upon work supported by the U.S. Army Research Office,
+ the National Science Foundation and the National Institutes of Health.
+  
+ This job was started on: 05/01/15 at 22:36
+  
+ Classification tree
+ Pruning by cross-validation
+ Data description file: traindst.txt
+ Training sample file: train.txt
+ Missing value code: NA
+ Warning: N variables changed to S
+ Dependent variable is class
+ Length of longest data entry =  7
+ Number of classes =  2
+ Class      #Cases    Proportion
+ 0             318    0.65975104
+ 1             164    0.34024896
+  
+ Summary information (without x variables)
+ d=dependent, b=split and fit cat variable using 0-1 dummies, c=split-only categorical,
+ n=split and fit numerical, f=fit-only numerical, s=split-only numerical, w=weight
+  Column  Name             Minimum      Maximum   #Categories       #Missing
+       2  Thickness   s   1.0000E+00   1.0000E+01
+       3  Size        s   1.0000E+00   1.0000E+01
+       4  Shape       s   1.0000E+00   1.0000E+01
+       5  Adhesion    s   1.0000E+00   1.0000E+01
+       6  Epithelial  s   1.0000E+00   1.0000E+01
+       7  Nuclei      s   1.0000E+00   1.0000E+01                         11
+       8  Bland       s   1.0000E+00   1.0000E+01
+       9  Nucleoli    s   1.0000E+00   1.0000E+01
+      10  Mitoses     s   1.0000E+00   1.0000E+01
+      11  class       d                                     2
+  
+      Total  #cases w/   #missing
+     #cases    miss. D  ord. vals   #X-var   #N-var   #F-var   #S-var   #B-var   #C-var
+        482          0         11        1        0        0        9        0        0
+ No. cases used for training: 482
+ No. cases excluded due to 0 weight or missing D: 0
+  
+ Univariate split highest priority
+ Interaction and linear splits 2nd and 3rd priorities
+ Pruning by v-fold cross-validation, with v =  10
+ Selected tree is based on mean of CV estimates
+ Simple node models
+ Estimated priors
+ Unit misclassification costs
+ Split values for N and S variables based on exhaustive search
+ Max number of split levels =  10
+ Minimum node size =  3
+ Number of SE's for pruned tree =   5.0000E-01
+  
+ Size and CV mean cost and SE of subtrees:
+  Tree   #Tnodes  Mean Cost   SE(Mean)   BSE(Mean)  Median Cost  BSE(Median)
+    1       15   6.017E-02   1.083E-02   6.096E-03   6.250E-02   7.587E-03
+    2       14   6.017E-02   1.083E-02   6.096E-03   6.250E-02   7.587E-03
+    3       13   6.017E-02   1.083E-02   6.096E-03   6.250E-02   7.587E-03
+    4       12   6.017E-02   1.083E-02   6.096E-03   6.250E-02   7.587E-03
+    5        9   5.809E-02   1.065E-02   5.719E-03   6.250E-02   5.861E-03
+    6        5   5.809E-02   1.065E-02   7.060E-03   6.186E-02   8.476E-03
+    7**      4   5.602E-02   1.047E-02   7.166E-03   5.145E-02   9.701E-03
+    8        2   6.846E-02   1.150E-02   8.141E-03   8.248E-02   1.198E-02
+    9        1   3.402E-01   2.158E-02   3.582E-03   3.333E-01   7.763E-03
+  
+ 0-SE tree based on mean is marked with *
+ 0-SE tree based on median is marked with +
+ Selected-SE tree based on mean using naive SE is marked with **
+ Selected-SE tree based on mean using bootstrap SE is marked with --
+ Selected-SE tree based on median and bootstrap SE is marked with ++
+ ** tree and ++ tree are the same
+  
+  
+ Following tree is based on mean CV with naive SE estimate (**).
+  
+ Structure of final tree. Each terminal node is marked with a T.
+  
+ Node cost is node misclassification cost divided by number of training cases
+        Node    Total    Train    Predicted        Node    Split          Interacting
+       label    cases    cases    class            cost    variables      variable
+           1      482      482    0              3.402E-01 Size 
+           2T     297      297    0              1.684E-02 Nucleoli 
+           3      185      185    1              1.405E-01 Nuclei 
+           6       35       35    1              4.857E-01 Size 
+          12T      14       14    0              7.143E-02 - 
+          13T      21       21    1              1.905E-01 Nuclei 
+           7T     150      150    1              6.000E-02 Thickness :Adhesion
+  
+ Number of terminal nodes of final tree: 4
+ Total number of nodes of final tree:    7
+  
+ Classification tree:
+  
+  Node 1: Size <=    2.50000 or NA
+    Node 2: 0
+  Node 1: Size >    2.50000 and not NA
+    Node 3: Nuclei <=    2.50000 or NA
+      Node 6: Size <=    3.50000
+        Node 12: 0
+      Node 6: Size >    3.50000 or NA
+        Node 13: 1
+    Node 3: Nuclei >    2.50000 and not NA
+      Node 7: 1
+ 
+ ***************************************************************
+ 
+ In the following the predictor node mean is mean of complete cases
+  
+ Node 1: Intermediate node
+ A case goes into Node 2 if Size <=  2.5000000E+00 or NA
+ Size mean =  3.1577E+00
+ Class      Number  ClassPrior
+ 0             318     0.65975
+ 1             164     0.34025
+ Number of training cases misclassified =  164
+ Predicted class is 0
+ ----------------------------
+ Node 2: Terminal node
+ Class      Number  ClassPrior
+ 0             292     0.98316
+ 1               5     0.01684
+ Number of training cases misclassified =  5
+ Predicted class is 0
+ ----------------------------
+ Node 3: Intermediate node
+ A case goes into Node 6 if Nuclei <=  2.5000000E+00 or NA
+ Nuclei mean =  6.9727E+00
+ Class      Number  ClassPrior
+ 0              26     0.14054
+ 1             159     0.85946
+ Number of training cases misclassified =  26
+ Predicted class is 1
+ ----------------------------
+ Node 6: Intermediate node
+ A case goes into Node 12 if Size <=  3.5000000E+00
+ Size mean =  5.6286E+00
+ Class      Number  ClassPrior
+ 0              17     0.48571
+ 1              18     0.51429
+ Number of training cases misclassified =  17
+ Predicted class is 1
+ ----------------------------
+ Node 12: Terminal node
+ Class      Number  ClassPrior
+ 0              13     0.92857
+ 1               1     0.07143
+ Number of training cases misclassified =  1
+ Predicted class is 0
+ ----------------------------
+ Node 13: Terminal node
+ Class      Number  ClassPrior
+ 0               4     0.19048
+ 1              17     0.80952
+ Number of training cases misclassified =  4
+ Predicted class is 1
+ ----------------------------
+ Node 7: Terminal node
+ Class      Number  ClassPrior
+ 0               9     0.06000
+ 1             141     0.94000
+ Number of training cases misclassified =  9
+ Predicted class is 1
+ ----------------------------
+  
+ 
+ Classification matrix for training sample:
+ Predicted      True class
+ class              0         1
+ 0                305         6
+ 1                 13       158
+ Total            318       164
+ 
+ Number of cases used for tree construction =  482
+ Number misclassified =  19
+ Resubstitution est. of mean misclassification cost =   3.941908713692946E-002
+ 
+ Observed and fitted values are stored in gfit.txt
+ LaTeX code for tree is in glatex.tex
+ R code is stored in gr.R
+ Elapsed time in seconds:   0.2184014    
